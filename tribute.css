@@ -1,0 +1,24 @@
+﻿body {
+  font-family:verdana;
+  color:rgb(90,150,255);
+  background-color:rgb(50,60,75);
+
+}
+
+h1 {
+  text-align:center;
+}
+
+p: {
+  font-family:'Special Elite' verdana;
+}
+
+.image {
+  background-image:url("miaCopy.jpg");
+  opacity:0.2;
+}
+
+h1::after {
+  content:"Testing";
+  color:yellow;
+}
